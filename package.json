@@ -1,0 +1,27 @@
+{
+  "name": "TEM-BOT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tixon337/TEM-BOT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tixon337/TEM-BOT/issues"
+  },
+  "homepage": "https://github.com/tixon337/TEM-BOT#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15",
+    "telegraf": "^4.5.2",
+    "weather-js": "^2.0.0"
+  }
+}
